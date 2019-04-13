@@ -2,6 +2,6 @@
 # passed into it and defaults to meat.
 require 'pry'
 def meal_choice(meal="meat")
-    puts "#{"meat"}"
+    return meal
     bind.pry
 end
